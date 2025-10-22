@@ -1,0 +1,24 @@
+package test;
+
+public class Sample2 {
+
+	public static void main(String[] args) {
+		
+		Person p =  new Person();
+		
+		int a;
+	}
+
+}
+
+
+class Person{
+	
+	String name;
+	int age;	
+}
+
+class Student{
+	String 학번;
+	String 학과;
+}

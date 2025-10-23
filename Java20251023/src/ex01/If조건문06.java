@@ -20,19 +20,21 @@ public class If조건문06 {
 		int fee = 2000;   //요금
 		double rate = 0;  //할인율
 		
-		if(age>65) {
+		if(age>=65) {
 			fee = 0;
-		}else if(age>=20) {
+		}else if(age>=20 & age<65) { //20~64
 			rate = 0;
-		}else if(age>=15) {
+		}else if(age>=15 & age<20) {  //15~19
 			rate = 0.2;
-		}else if(age>=7) {
+		}else if(age>=7 & age<15) {   //7~14
 			rate = 0.5;
 		}else {
 			fee = 0;
 		}
 		
-		fee = (int)(fee * (1 - rate));
+		if(fee != 0) {
+			fee = (int)(fee * (1 - rate));
+		}
 		
 		System.out.println("나이 " + age + "는 " + fee+"요금 입니다.");
 				

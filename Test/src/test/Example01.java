@@ -24,7 +24,7 @@ public class Example01 {
 		String name = sc.nextLine();
 		System.out.println("이름은 : " + name);
 		
-		//long  double
+		//long  double  
 		int age =   Integer.parseInt(sc.nextLine()); 
         System.out.println("나이는 : " + age);
         

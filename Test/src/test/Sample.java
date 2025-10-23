@@ -27,9 +27,9 @@ public class Sample {
 	    System.out.println(f1);
 	    System.out.println(d1);
 	    
-	   double f2 = 2147483648L;
-	   double f3 = 2147483558L;
-	   double f4 = 2147483668L;
+	   float f2 = 2147483648f;
+	   float f3 = 2147483558f;
+	   float f4 = 2147483668f;
 	   
 	   System.out.println(f2);
 	   System.out.println(f3);
@@ -37,9 +37,12 @@ public class Sample {
 	   
 	   //2.1474836E9  2.1474836x 10 -> 2,147,483,600  
 	   
-	   String str1 = "김\t대\t철";  // \t tap만큼 띄움
+	   System.out.println("----------개행문자----------------");
+	   String str1 = "김\t대\t철\"";  // \t tap만큼 띄움
 	   String str2 = "홍\n길\n동";  // \n 줄 변경 
-	   
+	   System.out.println(str1);
+	   System.out.println(str2);
+	  
 	   //자동 형변환
 	   int  intA = 10000;
 	   byte byteB = 20;

@@ -51,6 +51,7 @@ public class CharAtEx01 {
 		System.out.println("------문자열 합치기----------");
 		String s = "대한";
 		String s2 = "민국";
+		//s 가지고있는 "대한"에 s2가 가지고있는 민국을 합쳐서 새로운 문자열(대한민국) 생성
 		String s3 = s.concat(s2);
 		System.out.println(s3);
 

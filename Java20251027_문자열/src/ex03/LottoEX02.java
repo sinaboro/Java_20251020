@@ -17,11 +17,19 @@ public class LottoEX02 {
 		
 		for(int i=0; i<45; i++)
 			lotto[i] = i+1;
-		
+		/*
 		for(int i=0; i<100; i++) {
 			int index = (int)(Math.random()*45);
 			int tmp = lotto[i%6];
 			lotto[i%6] = lotto[index];
+			lotto[index] = tmp;
+		}
+		*/
+
+		for(int i=0; i<6; i++) {
+			int index = (int)(Math.random()*45);
+			int tmp = lotto[i];
+			lotto[i] = lotto[index];
 			lotto[index] = tmp;
 		}
 		

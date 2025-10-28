@@ -20,6 +20,7 @@ public class 연습문제 {
 		}
 		System.out.println(Arrays.toString(iArr));
 		
+		
 		//2. 배열에서 최대값, 최소값 구하기
 		int max, min;
 		max = min = iArr[0];
@@ -34,6 +35,8 @@ public class 연습문제 {
 		System.out.println("최대값 : " + max);
 		System.out.println("최소값 : " + min);
 		
+		
+		
 		// 3. 10값  총점 / 평균 구하기
 		int sum=0;
 		double avg=0;
@@ -47,18 +50,37 @@ public class 연습문제 {
 		
 		//4. 10 값을 정렬(오름차순)		
 		for(int i=0; i<iArr.length; i++) {
-			for(int j=0; j<iArr.length-i-1; j++) {
+			for(int j=0; j<iArr.length -i -1; j++) {
 				if(iArr[j]>iArr[j+1]) {
 					int tmp = iArr[j];
 					iArr[j] = iArr[j+1];
 					iArr[j+1] = tmp;
 				}
-			}
-		}
+			} //end j
+		}// end i
 		System.out.println("정렬 : " + Arrays.toString(iArr));
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

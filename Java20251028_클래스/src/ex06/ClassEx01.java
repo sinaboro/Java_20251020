@@ -33,6 +33,7 @@ public class ClassEx01 {
 		
 		System.out.println("------------------------");
 		Student s3 = new Student("박진희", 27, "강동구 명일동");
+		
 		System.out.println(s3.getName());
 		System.out.println(s3.getAge());
 		System.out.println(s3.getAddress());
@@ -91,8 +92,6 @@ class Student{
 	public void setAddress(String address) {
 		this.address = address;
 	}
-
-
 
 	public void study() {
 		System.out.println(name + " Java 공부 중 입니다.");

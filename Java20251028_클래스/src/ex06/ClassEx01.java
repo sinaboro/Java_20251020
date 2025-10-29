@@ -30,6 +30,13 @@ public class ClassEx01 {
 		System.out.println(s2.getAddress());
 		
 		s2.study();
+		
+		System.out.println("------------------------");
+		Student s3 = new Student("박진희", 27, "강동구 명일동");
+		System.out.println(s3.getName());
+		System.out.println(s3.getAge());
+		System.out.println(s3.getAddress());
+		s3.study();
 	}
 
 }
@@ -46,6 +53,17 @@ class Student{
 	private String name;
 	private int age;
 	private String address;
+	
+	//디폴드 생성자.
+	public Student() {
+		System.out.println("디폴드 생성자 호출!");
+	}
+	
+	public Student(String name, int age, String addr) {
+		this.name = name;
+		this.age = age;
+		this.address = addr;
+	}
 	
 	public int getAge() {
 		return age;

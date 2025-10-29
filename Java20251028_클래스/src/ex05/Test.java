@@ -1,6 +1,6 @@
 package ex05;
 
-class Test {
+public class Test {
 
 	
 }

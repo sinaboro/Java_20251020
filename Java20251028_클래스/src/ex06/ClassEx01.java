@@ -66,6 +66,8 @@ class Student{
 		this.address = addr;
 	}
 	
+	
+	
 	public int getAge() {
 		return age;
 	}
@@ -96,6 +98,9 @@ class Student{
 	public void study() {
 		System.out.println(name + " Java 공부 중 입니다.");
 	}
+	
+	
+	
 	
 }
 

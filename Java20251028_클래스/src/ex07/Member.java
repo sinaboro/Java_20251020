@@ -11,6 +11,7 @@ public class Member {
 		this.name = name;
 		this.id = id;
 	}
+	
 	public void setName(String name) {
 		this.name = name;
 	}

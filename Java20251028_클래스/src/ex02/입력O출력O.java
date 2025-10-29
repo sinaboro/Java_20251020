@@ -13,8 +13,8 @@ public class 입력O출력O{
 		System.out.println(s1.age);
 		System.out.println(s1.address);
 		s1.study();
-		int num = s1.add(5, 2);
-		System.out.println("두 수 합 : " + num);
+		s1.add(5, 2);
+		//System.out.println("두 수 합 : " + num);
 		
 		System.out.println("---------------------");
 		
@@ -28,10 +28,14 @@ public class 입력O출력O{
 		System.out.println(s2.address);
 		s2.study();
 		
-		num = s2.add(10, 29);
+		int num = s2.add(10, 29);
 		System.out.println("두 수 합 : " + num);
 	}
 
+}
+
+class Test{
+	
 }
 
 class Student{
@@ -44,7 +48,8 @@ class Student{
 	}
 	
 	//함수명:add, 반환타입(리턴값):int, 매개변수(입력값): 정수2개(int형)
-    int add(int n1, int n2) {
+    
+	int add(int n1, int n2) {
     	int sum = n1+n2;    	
     	return sum;   //return n1+n2
     

@@ -1,5 +1,8 @@
 package ex01;
 
+import ex02.입력O출력O;
+
+
 public class ClassEx01 {
 
 	public static void main(String[] args) {
@@ -25,6 +28,11 @@ public class ClassEx01 {
 		System.out.println(s2.age);
 		System.out.println(s2.address);
 		s2.study();
+		
+		
+		입력O출력O data = new 입력O출력O();
+		
+		
 	}
 
 }

@@ -44,7 +44,7 @@ class Student{
 	//함수명:add, 반환타입(리턴값):void, 매개변수(입력값): 정수2개(int형)
     void add(int n1, int n2) {
     	int sum = n1+n2;    	
-    	System.out.println("두수 합 : " + sum);
+    	System.out.println("두수 합 : " + sum);   	
     
     }
 }

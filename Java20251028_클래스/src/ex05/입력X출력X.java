@@ -29,6 +29,8 @@ public class 입력X출력X{
 		s2.study();
 		
 		s2.info();
+		
+		Test t = new Test();
 	}
 
 }

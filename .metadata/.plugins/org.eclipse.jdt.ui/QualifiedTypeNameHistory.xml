@@ -9,5 +9,16 @@
     <fullyQualifiedTypeName name="int"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="ex01.Student"/>
+    <fullyQualifiedTypeName name="ex05.Test"/>
+    <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
+    <fullyQualifiedTypeName name="ex06.Student"/>
+    <fullyQualifiedTypeName name="ex07.Member"/>
+    <fullyQualifiedTypeName name="ex08.MemberService"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="ex09.Printer"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="ex10.Printer"/>
+    <fullyQualifiedTypeName name="ex08.Printer"/>
+    <fullyQualifiedTypeName name="ex11.StaticEx01"/>
+    <fullyQualifiedTypeName name="ex12.Account"/>
 </qualifiedTypeNameHistroy>

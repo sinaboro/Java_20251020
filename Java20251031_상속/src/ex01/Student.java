@@ -7,7 +7,10 @@ public class Student extends Person{
 	
 	private String school;
 	
-	public Student() {} //디폴트 생성자
+	public Student() {
+		super();
+	} //디폴트 생성자
+	
 	public Student(String name, int age, String school){
 		super(name, age);
 		this.school = school;

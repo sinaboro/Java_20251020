@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Person {
 	private String name;
-	private int age;
+	private int age = 10;
 	
 	public Person() {
 	}
@@ -16,7 +16,7 @@ public class Person {
 		System.out.println("Person class");
 	}
 	
-	public void eat() {
+	public  void eat() {
 		System.out.println(name+"은 점심을 먹는다.");
 	}
 		

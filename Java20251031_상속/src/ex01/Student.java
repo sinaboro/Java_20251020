@@ -8,8 +8,10 @@ public class Student extends Person{
 	private String school;
 	
 	public Student() {} //디폴트 생성자
-	public Student(String school){		
+	public Student(String name, int age, String school){
+		super(name, age);
 		this.school = school;
+		System.out.println("Student class");
 	}
 	
 	public void study() {

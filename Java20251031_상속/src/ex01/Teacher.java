@@ -1,14 +1,12 @@
 package ex01;
 
-public class Teacher {
-	private String name;
-	private int age;
+public class Teacher  extends Person{
+	
 	private String subject;
 	
 	public Teacher() {}
 	public Teacher(String name, int age, String subject){
-		this.name = name; 
-		this.age = age;
+		super(name, age);
 		this.subject = subject;
 	}
 	

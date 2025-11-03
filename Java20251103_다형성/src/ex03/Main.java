@@ -45,7 +45,7 @@ public class Main {
 		C cc1 = (C)aa;
 		
 		
-		
+		aa = (B)cc;
 		
 		
 		

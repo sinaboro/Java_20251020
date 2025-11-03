@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="int"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="ex05.Test"/>
-    <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
     <fullyQualifiedTypeName name="ex06.Student"/>
     <fullyQualifiedTypeName name="ex07.Member"/>
     <fullyQualifiedTypeName name="ex08.MemberService"/>
@@ -23,9 +22,15 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="ex01.Teacher"/>
     <fullyQualifiedTypeName name="ex01.Person"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="ex01.Student"/>
     <fullyQualifiedTypeName name="ex02.SingletonExample"/>
     <fullyQualifiedTypeName name="ex02.Sample"/>
     <fullyQualifiedTypeName name="ex02.Singleton"/>
+    <fullyQualifiedTypeName name="ex02.Student"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
+    <fullyQualifiedTypeName name="ex01.Student"/>
+    <fullyQualifiedTypeName name="ex02.Person"/>
+    <fullyQualifiedTypeName name="ex02.Teacher"/>
+    <fullyQualifiedTypeName name="ex02.Studnet"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>

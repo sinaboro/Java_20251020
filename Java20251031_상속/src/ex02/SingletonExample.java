@@ -24,12 +24,5 @@ public class SingletonExample {
 			System.out.println("다른 Sample 객체");
 		}
 		
-	
-		Singleton s1 = Singleton.getInstace();
-		
-//		Singleton s2 = Singleton.singleton;
-		
-		System.out.println(s1);
-		System.out.println(s2);
 	}
 }

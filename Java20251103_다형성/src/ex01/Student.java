@@ -1,12 +1,15 @@
-package ex02;
+package ex01;
 
 public class Student extends Person{
 
 	private String school;
 	
-	public Student() {}
+	public Student() {
+		super(); //자동기입
+	}
 	
 	public Student(String school) {
+		super(); //자동기입
 		this.school = school;
 	}
 

@@ -1,14 +1,12 @@
 package ex02;
 
 public class Person {
-	private String name;
-	private int age;
-	
-	Person(String name, int age){
-		this.name = name;
-		this.age = age;
+
+	void pInfo() {
+		System.out.println("-----Person------");
 	}
-	public String getName() {
-		return name;
+	
+	void func() {
+		System.out.println("-----Person func()------");
 	}
 }

@@ -8,10 +8,46 @@ public class Main {
 		 a = new B();    //2		 
 		 a = new C();    //3
 		 
-		//메소드 오버라이딩이 된 경우는 ,
-		 
-		 
-		 
-		 
+		//메소드 오버라이딩이 된 경우는, 참조변수가 
+		//가르키는 클래스 메소드가 호출
+		a = new A();
+		a.test();  //A class
+		
+		a = new B();
+		a.test(); //B class
+		
+		a = new C();
+		a.test(); //C class
+		
+		System.out.println("---------------------");
+		
+		a = new B();
+		
+		// B b = new A(); X
+		
+		B b = (B)a;
+		b.test();
+		System.out.println("---------------------");
+		
+		a = new C();		
+		C c = (C)a;
+		c.test();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 }

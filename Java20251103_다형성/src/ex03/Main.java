@@ -34,6 +34,17 @@ public class Main {
 		c.test();
 		
 		
+		System.out.println("-------------------");
+		
+		A aa = null;
+		
+		C cc = new C();
+		
+		aa = (A)cc;
+		
+		C cc1 = (C)aa;
+		
+		
 		
 		
 		

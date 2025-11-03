@@ -19,6 +19,13 @@ public class Main {
 		// p3.tInfo()  //주석 풀면 에러
 		p3.func();
 		
+		System.out.println("---------------------");
+		Teacher t2 = (Teacher)p3;
+		t2.pInfo();
+		t2.tInfo();
+		t2.func();
+		
+		
 		Person p4 = new Studnet();
 		
 		

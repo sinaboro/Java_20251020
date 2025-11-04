@@ -2,6 +2,8 @@ package ex02;
 
 abstract class Player { //추상 클래스
 	
+	private int number;
+	
 	abstract void play(int pos) ;  //추상메소드
 	abstract void stop();  //추상메소드
 	

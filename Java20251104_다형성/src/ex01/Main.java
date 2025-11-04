@@ -34,6 +34,9 @@ public class Main {
 		b2.fA();
 		b2.fB();
 		System.out.println(b2.toString());
+		
+		a2 = new CClass();
+		System.out.println(a2.toString());
 	}
 
 }

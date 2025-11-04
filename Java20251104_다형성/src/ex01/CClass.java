@@ -5,7 +5,7 @@ public class CClass extends BClass{
 		System.out.println("FC...");
 	}
 	
-	public String toString() {
+	public String tostring() {
 		return "CAClass";
 	}
 }

@@ -15,7 +15,14 @@ public class PayMain {
 		Payment p = new KakaoPay();
 		p.pay(50000);
 		
-
+		
+		func(new CreditCard(),  5000);
+		
+	}
+	
+	public static void func(Payment  p, int money) {
+		p.pay(money);
+		
 	}
 
 }

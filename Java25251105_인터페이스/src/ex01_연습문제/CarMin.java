@@ -7,7 +7,5 @@ public class CarMin {
 		Vehicle car = new Car("현대", 2025, "SUV");
 		
 		car.showInfo();
-
 	}
-
 }

@@ -32,5 +32,12 @@
     <fullyQualifiedTypeName name="ex02.Person"/>
     <fullyQualifiedTypeName name="ex02.Teacher"/>
     <fullyQualifiedTypeName name="ex02.Studnet"/>
+    <fullyQualifiedTypeName name="ex01_연습문제.Vehicle"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="ex02_연습문제.Animal"/>
+    <fullyQualifiedTypeName name="ex02_연습문제_확장.Animal"/>
+    <fullyQualifiedTypeName name="ex03.Animal"/>
+    <fullyQualifiedTypeName name="ex04.Printer"/>
+    <fullyQualifiedTypeName name="ex04.LaserPrinter"/>
+    <fullyQualifiedTypeName name="ex04.InkjectPrinter"/>
 </qualifiedTypeNameHistroy>

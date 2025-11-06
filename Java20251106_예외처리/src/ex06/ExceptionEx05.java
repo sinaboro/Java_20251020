@@ -10,6 +10,9 @@ public class ExceptionEx05 {
 			func1(5, 0);
 		}catch (Exception e) {
 			System.out.println("예외 발생!!");
+			e.printStackTrace();
+			System.out.println("----------------");
+			System.out.println(e.getMessage());
 		}
 		
 		System.out.println("프로그램 종료...");

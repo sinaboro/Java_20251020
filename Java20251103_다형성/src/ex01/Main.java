@@ -13,6 +13,9 @@ public class Main {
 		s2.study();
 		System.out.println(s2.info());
 		
+		
+		
+		
 	}
 
 }

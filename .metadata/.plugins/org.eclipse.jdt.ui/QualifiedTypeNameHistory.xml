@@ -40,4 +40,14 @@
     <fullyQualifiedTypeName name="ex04.Printer"/>
     <fullyQualifiedTypeName name="ex04.LaserPrinter"/>
     <fullyQualifiedTypeName name="ex04.InkjectPrinter"/>
+    <fullyQualifiedTypeName name="java.lang.Short"/>
+    <fullyQualifiedTypeName name="ex01.Rectangle"/>
+    <fullyQualifiedTypeName name="ex01.Shape"/>
+    <fullyQualifiedTypeName name="ex01.Circle"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.Throwable"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
 </qualifiedTypeNameHistroy>

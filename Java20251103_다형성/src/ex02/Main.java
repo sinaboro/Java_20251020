@@ -14,6 +14,7 @@ public class Main {
 		//다형성 : 상위 클래스는 하위 클래스 참조가능
 		Person p2 = new Person();
 		p2.pInfo();
+		p2.func();
 		Person p3 = new Teacher();
 		p3.pInfo();
 		// p3.tInfo()  //주석 풀면 에러

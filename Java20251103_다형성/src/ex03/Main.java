@@ -12,8 +12,10 @@ public class Main {
 		//가르키는 클래스 메소드가 호출
 		a = new A();
 		a.test();  //A class
+		a.fA();
 		
 		a = new B();
+		//a.fB();
 		a.test(); //B class
 		
 		a = new C();
@@ -27,11 +29,16 @@ public class Main {
 		
 		B b = (B)a;
 		b.test();
+		b.fA();
+		b.fB();
 		System.out.println("---------------------");
 		
 		a = new C();		
 		C c = (C)a;
 		c.test();
+		c.fA();
+		c.fB();
+		c.fC();
 		
 		
 		System.out.println("-------------------");

@@ -9,6 +9,11 @@ public class Main {
 		s.draw();
 		s  = new Shape(0,0);
 		s.draw();
+		
+		Object  p = new Circle(0, 0);
+		System.out.println(p);
+		 p = new Rectangle(0, 0);
+		 p = new Shape(0, 0);
 	}
 }
 
@@ -40,6 +45,11 @@ class Circle extends Shape{
 	public void draw() {
 		System.out.printf("원을 (%d,%d)에 그립니다.\n", getX(), getY());
 	}	
+	
+	@Override
+	public String toString() {	
+		return "나는 원입니다.";
+	}
 }
 
 class Rectangle extends Shape{

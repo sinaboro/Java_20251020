@@ -27,8 +27,6 @@
     <fullyQualifiedTypeName name="ex02.Student"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
-    <fullyQualifiedTypeName name="ex01.Student"/>
-    <fullyQualifiedTypeName name="ex02.Person"/>
     <fullyQualifiedTypeName name="ex02.Teacher"/>
     <fullyQualifiedTypeName name="ex02.Studnet"/>
     <fullyQualifiedTypeName name="ex01_연습문제.Vehicle"/>
@@ -53,4 +51,8 @@
     <fullyQualifiedTypeName name="ex01.Teacher"/>
     <fullyQualifiedTypeName name="ex02.Stduent"/>
     <fullyQualifiedTypeName name="ex03.Vehicle"/>
+    <fullyQualifiedTypeName name="ex01.Student"/>
+    <fullyQualifiedTypeName name="ex01.Human"/>
+    <fullyQualifiedTypeName name="ex02.Person"/>
+    <fullyQualifiedTypeName name="ex02.Friend"/>
 </qualifiedTypeNameHistroy>

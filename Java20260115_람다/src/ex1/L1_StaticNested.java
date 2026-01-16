@@ -4,9 +4,12 @@ package ex1;
 class Outer{
 	
 	private static int num=0;
+	public  int i=0;
 	
 	static class Nexted1{
-		void add(int n) { num = n; }
+		void add(int n) { 
+			num = n;		
+		}
 	}
 	
 	static class Nested2{
@@ -20,6 +23,7 @@ public class L1_StaticNested {
 	public static void main(String[] args) {
 		
 		Outer.Nexted1 nst1 = new Outer.Nexted1();
+		nst1.add(5);
 		nst1.add(5);
 		
 		Outer.Nested2 nst2 = new Outer.Nested2();

@@ -2,6 +2,7 @@ package ex3;
 
 interface Printable{
 	void print();
+	void print2();
 }
 
 class Perers{
@@ -15,6 +16,11 @@ class Perers{
 			
 			@Override
 			public void print() {
+				System.out.println(msg);
+			}
+			
+			@Override
+			public void print2() {
 				System.out.println(msg);
 			}
 		};	

@@ -2,6 +2,7 @@ package ex4;
 
 import java.util.function.Consumer;
 
+@FunctionalInterface
 interface Printable{
 	void print();
 }
@@ -11,6 +12,7 @@ class Perers{
 	public Perers(String msg) { this.msg = msg;}
 	
 	public Printable getPrinter() {
+		
 		//람다
 		return () -> System.out.println(msg);
 	}	

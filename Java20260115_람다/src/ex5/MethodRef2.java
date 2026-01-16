@@ -17,9 +17,9 @@ public class MethodRef2 {
 
 	public static void main(String[] args) {
 		
-//		Supplier<Integer> dice1 = ()->RandomUtil.coffee();
-//		
-//		System.out.println(dice1.get());
+		Supplier<Integer> dice1 = ()-> RandomUtil.coffee();
+		System.out.println(dice1.get());
+		
 		
 		Supplier<Integer> dice2 = RandomUtil::coffee;
 		

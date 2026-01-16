@@ -18,21 +18,15 @@ public class L5_Rambda3_1 {
 		System.out.println(len);
 		
 		List<String> list = new ArrayList<String>();
-		
+		System.out.println("-------------------------");
 		list.add("java");
 		list.add("Spring");
 		list.add("react");
 		list.add("vue3");
 		
-		list.forEach(
-
-			
-			t -> 
-				System.out.println(t)
-				
-			
-		);
+		list.forEach( t -> System.out.println(t));
 		
+		System.out.println("-------------------------");
 		list.forEach(l -> System.out.println(l) );
 		
 		System.out.println("--------------------------");

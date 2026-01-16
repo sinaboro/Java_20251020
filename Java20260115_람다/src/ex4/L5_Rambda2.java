@@ -11,12 +11,16 @@ public class L5_Rambda2 {
 
 	public static void main(String[] args) {		
 		
-		Adder a1 = (n1,  n2) -> n1+n2;
-		
+		//Adder a1 = (n1,  n2) -> n1+n2;
+		Adder a1 = (n1, n2) -> n1 + n2;
+			
 		int result = a1.add(2, 2);
 		
 		System.out.println(result);
 		
+		
+		BiFunction<Integer, Integer, Integer> re = (i,j)-> i+j;
+		System.out.println(re.apply(4, 4));
 		
 		BiFunction<Integer, Integer, Double> f = (n1, n2) ->   (double)n1 * n2;
 		double d1 =  f.apply(5, 3);

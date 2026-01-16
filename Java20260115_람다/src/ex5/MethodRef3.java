@@ -24,7 +24,7 @@ public class MethodRef3 {
 		
 		System.out.println("------------------------");
 		
-		Function<String , Integer> f1 = (String f) -> f.length();
+		Function<String , Integer> f1 = (f) -> f.length();
 		System.out.println(f1.apply("korea"));
 		
 		Function<String , Integer> f2 = String::length;

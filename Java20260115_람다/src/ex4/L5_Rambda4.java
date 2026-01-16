@@ -1,5 +1,7 @@
 package ex4;
 
+import java.util.function.Predicate;
+
 //정수를 전달하면 짝수 인지 홀수인지 판별하는 람다식 구현
 
 interface DiscernClass{
@@ -19,15 +21,19 @@ public class L5_Rambda4 {
 			}
 		};
 		*/
+		
 		DiscernClass flag = num -> num % 2 == 0 ? true : false; 
 		
 		boolean f = flag.discern(5);
 		
 		if( f == true )
-			System.out.printf("양수"); 
+			System.out.println("양수"); 
 		else 
-			System.out.printf("홀수"); 
+			System.out.println("홀수"); 
+
+		Predicate<Integer> pre = i -> i%2==0? true : false;
 		
+		System.out.println(pre.test(5));
 		
 	}
 
